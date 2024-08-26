@@ -23,7 +23,7 @@ pip install keyboard pycaw comtypes pywin32
 cd C:\Users\ceepies\Documents
 
 :: Run the Python script without a console window
-start "" pythonw srakol.py
+start "" pythonw audiocontrol.py
 
 :: Clean up the installer if it was downloaded
 if exist python_installer.exe del python_installer.exe
